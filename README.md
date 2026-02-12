@@ -56,16 +56,17 @@ This project showcases a complete fitness website UI including hero section, ser
 
 ```
 git clone https://github.com/your-username/your-repo-name.git
+```
 
 2.Navigate to project folder:
-
+```
 cd your-repo-name
-
+```
 3.Install dependencies:
-
+```
 npm install
-
+```
 4.Run the development server:
-
+```
 npm run dev
 ```
