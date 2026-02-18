@@ -8,8 +8,8 @@ import Free from "../assets/Free.png";
 
 const Services = () => {
   return (
-    <section className="w-full min-h-screen bg-[#050706] flex items-center mt-[-40px]">
-      <div className="w-full px-20 flex items-center justify-between">
+    <section className="w-full min-h-screen bg-[#050706] flex items-center mt-[-40px ] ">
+      <div className="w-full px-20 flex items-center justify-between flex-col gap-20 md:flex-row ">
 
         <div className="max-w-[520px] text-white">
           <span className="text-yellow-400 text-sm font-semibold block mb-4">
@@ -46,4 +46,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;
