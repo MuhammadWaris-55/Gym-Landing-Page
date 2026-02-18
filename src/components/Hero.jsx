@@ -3,6 +3,7 @@ import HeroImage from "../assets/Hero.jpg";
 
 const Hero = () => {
   return (
+    //Responsive For Mobile
      <section className="w-full bg-[#050706] text-white px-20 py-20 flex flex-col md:flex-row items-center justify-between">
       
       <div className="w-1/2 flex flex-col gap-6">
