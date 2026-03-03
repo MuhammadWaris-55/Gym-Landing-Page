@@ -5,11 +5,11 @@ import { faFacebookF, faYoutube, faInstagram } from "@fortawesome/free-brands-sv
 
 const Footer = () => {
   return (
-     <footer className="text-white w-full pt-16 pb-6 px-28">
-      
-      <div className="flex justify-between items-start">
+    <footer className="text-white w-full pt-16 pb-6 px-6 md:px-16 lg:px-28">
 
-        <div className="space-y-4 text-sm">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-12">
+
+        <div className="space-y-4 text-sm text-center md:text-left">
           <p className="hover:text-gray-400 cursor-pointer">Home</p>
           <p className="hover:text-gray-400 cursor-pointer">About</p>
           <p className="hover:text-gray-400 cursor-pointer">Services</p>
@@ -28,13 +28,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
-          <img src={Maps} alt="Map" className="w-[340px] h-[200px] object-cover rounded-md"/>
+        <div className="flex justify-center md:justify-end">
+          <img src={Maps} alt="Map" className="w-full max-w-[340px] h-auto md:h-[200px] object-cover rounded-md" />
         </div>
 
       </div>
 
-      <div className="flex justify-between items-center mt-16 text-sm text-gray-400">
+      <div className="flex flex-col md:flex-row justify-between items-center mt-16 text-sm text-gray-400 gap-6 text-center md:text-left">
 
         <p>Copyright @ 2021 Vayumshala</p>
 
