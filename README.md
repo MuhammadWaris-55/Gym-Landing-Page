@@ -70,3 +70,20 @@ npm install
 ```
 npm run dev
 ```
+
+## ⭐ Support
+
+If you like this project, please consider giving it a **star ⭐** on GitHub.  
+It really helps and motivates me to keep building more projects!
+
+👉 **Give it a star if you liked this repo!**
+
+---
+
+## 👨‍💻 Author
+
+**Waris**
+
+---
+
+⭐ From **Waris**
