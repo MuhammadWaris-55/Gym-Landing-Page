@@ -4,7 +4,7 @@ import HeroImage from "../assets/Hero.jpg";
 const Hero = () => {
   return (
     <section className="w-full bg-[#050706] text-white px-6 sm:px-10 md:px-20 py-12 md:py-20 flex flex-col md:flex-row items-center justify-between gap-10">
-      
+
       <div className="w-full md:w-1/2 flex flex-col gap-5">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
           Join The World Of Fitness.
